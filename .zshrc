@@ -91,6 +91,7 @@ alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 alias cpwd='pwd | pbcopy'
 alias ducks='du -x --max-depth=1 | sort -n'
+alias dots='cd /home/sam/dotfiles/'
 
 #function md() { mkdir $@ && cd $_ }
 
